@@ -1,0 +1,3 @@
+Generate spritesheet http://draeton.github.io/stitches/
+Split gifs http://ezgif.com/split
+https://dl.dropboxusercontent.com/u/26189189/BlappyFird/index.html

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+
+		<title>Blappy Fird</title>
+
+		<link rel="stylesheet" href="styles.css" type="text/css" media="screen" charset="utf-8">
+
+	</head>
+	<body>
+		<div id="gamecontainer">
+
+			<canvas id="gamecanvas" width="800" height="600" class="gamelayer">
+			</canvas>	
+			
+			<div id="scorescreen" class="gamelayer">
+				<span id="score">0</span>
+			</div>
+
+			<div id="birthdayscreen" class="gamelayer">
+				<span id="birthdaymessage"></span>
+			</div>
+			
+			<div id="loadingscreen" class="gamelayer">
+				<div id="loadingmessage"></div>
+			</div>
+			
+			<div id="endingscreen" class="gamelayer">
+				<div>
+					<p id="endingmessage"> Game Over </p>
+					<p id="playAgain"><img src="images/play.png"></p>
+				</div>
+			</div>
+		</div>
+		
+		<div id="debug" style="position: absolute; color:white;"></div>
+		
+
+	</body>
+
+	<!-- import external libraries -->
+	<script src="jquery-1.10.2.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="Box2dWeb-2.1.a.3.min.js" type="text/javascript" charset="utf-8"></script>
+
+	<!-- import game code -->
+	<script src="js/fappy-game.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/common.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/animation-factory.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/level.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/player.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/input.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/loader.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/box2d.js" type="text/javascript" charset="utf-8"></script>
+
+</html>
+
+

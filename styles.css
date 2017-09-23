@@ -1,0 +1,85 @@
+@font-face {
+	font-family: fappyFont;
+    src: url(fonts/fappy-font.ttf);
+}
+
+
+
+#gamecanvas {
+	border: 1px solid black;
+	background: url(images/splashscreen.png);
+}
+
+.gamelayer {
+	width:800px;
+	height:600px;
+	position:absolute;
+	display:none;
+}
+
+/* Loading Screen */
+#loadingscreen {
+	background:rgba(100,100,100,0.3);	
+}
+
+#loadingmessage {
+    margin-top:400px;
+	text-align:center;
+	height:48px;
+	color:white;
+	background:url(images/loader.gif) no-repeat center;
+	font:12px Arial;
+}
+
+/* Score Screen */
+#scorescreen  {
+    height:60px;
+    font: 34px fappyFont;
+    text-shadow: 0 0 2px #000;
+	color: white;
+	text-align: center;
+	top: 20px;
+}
+
+/* Birthday Screen */
+#birthdayscreen  {
+    height:60px;
+    font: 44px fappyFont;
+    text-shadow: 0 0 2px #000;
+	color: yellow;
+	padding-top: 65px;
+	text-align: center;
+}
+
+/* Ending Screen */
+#endingscreen {
+	text-align:center;	
+}
+
+#endingscreen div {
+	height:306px;
+	border:1px;
+	background:rgba(1,1,1,0.5);
+	text-align:center;
+	margin-top: 80px;
+	padding-top: 76px;
+}
+
+#endingscreen p  {    
+    font: 20px fappyFont;
+    text-shadow: 0 0 2px #000;
+	color:white;
+}
+
+#endingscreen p img{
+	top:10px;
+	position:relative;
+	cursor:pointer;
+}
+
+#endingscreen #endingmessage  {    
+	top:10px;
+    font: 32px fappyFont;
+    text-shadow: 0 0 2px #000;
+	color:white;
+}
